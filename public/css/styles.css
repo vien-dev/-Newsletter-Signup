@@ -1,0 +1,34 @@
+/* stylelint-disable selector-no-qualifying-type, property-no-vendor-prefix */
+
+body {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #eee;
+    text-align: center;
+}
+
+.form-style {
+    width: 100%;
+}
+
+.custom-form-vertical-margin {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.custom-form-header-vertical-margin {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+@media (min-width: 768px) { 
+    .form-style {
+        width: 50%;
+    }
+}
+
+@media (min-width: 992px) { 
+    .form-style {
+        width: 30%;
+    }    
+}
