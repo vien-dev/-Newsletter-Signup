@@ -1,2 +1,2 @@
-# -Newsletter-Signup
+# Newsletter-Signup
 Learn mailchimp API
