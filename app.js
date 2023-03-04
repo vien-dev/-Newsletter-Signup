@@ -4,7 +4,7 @@ const request = require("request");
 const https = require("https");
 const port = 3000;
 
-process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
+//process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
 
 const app = express();
 
@@ -35,7 +35,7 @@ app.post("/", (req, res) => {
 
     const jsonData = JSON.stringify(subscriptionData);
     
-    var dc = procss.env.SERVER;
+    var dc = process.env.SERVER;
     var apiKey = process.env.API_KEY;
     var listId = process.env.LIST_ID;
     var url = `https://${dc}.api.mailchimp.com/3.0/lists/${listId}`
